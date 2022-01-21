@@ -1,0 +1,28 @@
+{{define "base"}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>RFServer package</title>
+</head>
+<body>
+<header>
+    Remote File Server
+</header>
+<main>
+    {{if .WebServer }}
+    {{ $webServer := .WebServer }}
+    <div class="user">
+        <a href='http://{{$webServer}}/logout'>
+            <span class="a">{{.User}}</span>
+            <span class="b">Выйти</span>
+        </a>
+    </div>
+    {{end}}
+    {{template "main" .}}
+</main>
+</body>
+</html>
+{{end}}

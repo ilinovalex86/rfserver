@@ -1,0 +1,23 @@
+{{template "base" .}}
+
+{{define "main"}}
+{{ $sep := .Sep }}
+{{ $webServer := .WebServer }}
+    <nav>
+        {{range .Menu }}
+        <a href='http://{{$webServer}}?path={{.Link}}'>{{.Name}}</a> {{$sep}}
+        {{end}}
+    </nav>
+    <div class="linkAndName">
+        <h3>Папки:</h3>
+        {{range .Dirs }}
+        <a href='http://{{$webServer}}?path={{.Link}}'>{{.Name}}</a><br>
+        {{end}}
+    </div>
+    <div class="linkAndName">
+        <h3>Файлы:</h3>
+        {{range .Files }}
+        <a href='http://{{$webServer}}/file?path={{.Link}}&name={{.Name}}' target='_blank'>{{.Name}}</a><br>
+        {{end}}
+    </div>
+{{end}}

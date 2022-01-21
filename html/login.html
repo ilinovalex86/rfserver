@@ -1,0 +1,16 @@
+{{template "base" .}}
+
+{{define "main"}}
+<div id="form">
+    <h3>Выбирите пользоваетля</h3>
+    <form action="/auth" method="post">
+        <select name="clientId" >
+            {{range .FreeTcpClients }}
+            <option value="{{.Id}}">{{.User}}</option>
+            {{end}}
+        </select>
+        <br>
+        <input type="submit" value=">ok<" class="button">
+    </form>
+</div>
+{{end}}
