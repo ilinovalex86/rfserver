@@ -1,11 +1,15 @@
 github.com/ilinovalex86/connection v1.1.1 h1:7+wpIBUbHb1dlaInELeTIioDv3n02DuukXq0cwAn4Qk=
 github.com/ilinovalex86/connection v1.1.1/go.mod h1:ICh4SydvoImApEnb7bZdRQOA0N3ryvnpYM0fcvFmLoo=
+github.com/ilinovalex86/connection v1.1.5 h1:h7q+lExtlovvEntd3596FI57q4fidQldI0WDNud8NcE=
+github.com/ilinovalex86/connection v1.1.5/go.mod h1:ICh4SydvoImApEnb7bZdRQOA0N3ryvnpYM0fcvFmLoo=
 github.com/ilinovalex86/consol v1.1.0 h1:I2M0U1TD6NjS5HzdDrtO6X7qekLYq1VCqfFyja5p9xI=
 github.com/ilinovalex86/consol v1.1.0/go.mod h1:xTHn1lWEjPeHFW/MioYDispivXTEYJYSdQkhfr0UjnQ=
 github.com/ilinovalex86/explorer v1.1.0 h1:ShE9YWJeznwRbAO97L6xDce+YB/oLQ4XNq61SznF7OY=
 github.com/ilinovalex86/explorer v1.1.0/go.mod h1:LqRkGi4+kxPbtimEVKIuDCmFp8ypBk/HLgTb2gzXDcA=
 github.com/ilinovalex86/tcpserver v1.1.12 h1:qshR+EB4xudc83yk9Mdr9FRlhiP3rXe9Rr0hzpbZlkA=
 github.com/ilinovalex86/tcpserver v1.1.12/go.mod h1:Je6/4VgZYyYLzepOt2J3H6Z0ojbCxpYRdkcUWYJ+HJc=
+github.com/ilinovalex86/tcpserver v1.2.0 h1:8SeDqiu42qAXuLebc11jxdtQwfE/NZXxzvfnYJn737E=
+github.com/ilinovalex86/tcpserver v1.2.0/go.mod h1:MeGeYTV7BETCxFuJhZQHfdMAn9KE2os+bkyZ9DtfTos=
 github.com/ilinovalex86/tcpserverweb v1.0.6 h1:/z5p4UpyJJSLb3tpWDgXcfJwXJ3JF0GSRI2XU8nDcl8=
 github.com/ilinovalex86/tcpserverweb v1.0.6/go.mod h1:D0mhQNshwHuZaDLEb+KuoSgfBvVcN+nqEh6gto+YGNE=
 golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
