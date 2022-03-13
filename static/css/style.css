@@ -13,6 +13,15 @@ header {
     font-style: italic;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #00e703;
+    transition-duration: .2s;
+}
 main {
     margin: 15px;
 }

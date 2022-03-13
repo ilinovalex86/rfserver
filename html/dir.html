@@ -3,6 +3,11 @@
 {{define "main"}}
 {{ $sep := .Sep }}
 {{ $webServer := .WebServer }}
+    <a href='http://{{$webServer}}/remote' target="_blank" >Управление компьютером</a><br><br>
+    <form action="http://{{$webServer}}/sendFile" method="post" enctype="multipart/form-data">
+        <input name="file" type="file" value="файл" required/>
+        <input value="Отправить" type="submit" />
+    </form><br>
     <nav>
         {{range .Menu }}
         <a href='http://{{$webServer}}?path={{.Link}}'>{{.Name}}</a> {{$sep}}
@@ -17,7 +22,7 @@
     <div class="linkAndName">
         <h3>Файлы:</h3>
         {{range .Files }}
-        <a href='http://{{$webServer}}/file?path={{.Link}}&name={{.Name}}' target='_blank'>{{.Name}}</a><br>
+        <a href='http://{{$webServer}}/getFile?path={{.Link}}&name={{.Name}}' target='_blank'>{{.Name}}</a><br>
         {{end}}
     </div>
 {{end}}
